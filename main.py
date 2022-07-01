@@ -3,8 +3,6 @@ from pytesseract import pytesseract
 from PIL import Image
 app = FastAPI()
 
-pytesseract.tesseract_cmd = 'E:\\Tesseract\\tesseract.exe'
-
 
 @app.post("/pytesseract/")
 async def upload_pytesseract(file: UploadFile):
