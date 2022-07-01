@@ -8,6 +8,7 @@ uvicorn = "*"
 fastapi = "*"
 pytesseract = "*"
 python-multipart = "*"
+gunicorn = "*"
 
 [dev-packages]
 
