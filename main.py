@@ -3,7 +3,7 @@ from pytesseract import pytesseract
 from PIL import Image
 app = FastAPI()
 
-pytesseract.tesseract_cmd = '/Tesseract/tesseract.exe'
+pytesseract.tesseract_cmd = 'Tesseract/tesseract.exe'
 
 
 @app.post("/pytesseract/")
